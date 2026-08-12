@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reserva</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <img src="Imagenes/Logo.png" alt="">
+            <h1>MatchPoint</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="canchas.html">Canchas</a></li>
+                <li><a href="contactos.html">Contactos</a></li>
+                <li><a href="reservas.html">Reservar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="Reservas">
+            <h1>Reservas</h1>
+            <h4>Reserve su cancha y disfrute un partido de gran calidad</h4>
+        </section>
+        <section class="Formulario-reservas">
+            <form method="post" action="reservaRealizada.html">
+                <div class="InformacionPersonal">
+                    <h4>Información personal:</h4>
+                    Nombre: <input type="text" name="Nombre" placeholder="Nombre completo"><br><br>
+                    Correo: <input type="email" name="Email" placeholder="Correo electrónico"><br><br>
+                    Teléfono: <input type="tel" name="telefono" placeholder="Número de teléfono">
+                </div>
+                <div class="Detalles-reserva">
+                    <h4>Detalles de la reserva:</h4>
+                    Fecha: <input type="date" name="Fecha"><br><br>
+                    Hora: <input type="number" max="24" min="0" name="Hora" placeholder="Horario"><br><br>
+                </div>
+                <input class="Boton" type="submit" value="Realizar reserva">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <a href="contactos.html">Contacto</a>
+        </div>
+        <p>Numero de telefono: +54 9 11-1234-5678</p>
+        <p>© MatchPoint. Todos los derechos reservados. Sitio oficial · Buenos Aires, Argentina.</p>
+   </footer>
+</body>
+</html>
