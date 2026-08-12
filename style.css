@@ -38,32 +38,9 @@
   grid-template-columns: repeat(3, 33%);
   gap: 1%;
 }
-<<<<<<< HEAD
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
 .canchas div{
   margin-bottom: 5%;
 }
 .canchas div img{
   width: 100%;
 }
->>>>>>> de7a9ce762506c0090401e7951372da7db2ed5ed
