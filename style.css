@@ -38,3 +38,9 @@
   grid-template-columns: repeat(3, 33%);
   gap: 1%;
 }
+.canchas div{
+  margin-bottom: 5%;
+}
+.canchas div img{
+  width: 100%;
+}
