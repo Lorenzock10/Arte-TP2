@@ -14,6 +14,16 @@
   grid-template-columns: repeat(3, 33%);
   gap: 1%;
 }
+.canchasDestacadas div{
+  text-align: center;
+}
+.canchasDestacadas div p{
+  font-weight: bold;
+  font-size: 25px;
+}
+.canchasDestacadas div img{
+  width: 100%;
+}
 .reseñas {
   width: 100%;
 
@@ -21,6 +31,40 @@
   grid-template-rows: 100%;
   grid-template-columns: repeat(4, 25%);
   gap: 1%;
+}
+.reseñas {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center; 
+  align-items: start;   
+  box-sizing: border-box;
+}
+
+.reseñas div {
+  border-radius: 15px;
+  width: 100%;           
+  max-width: 300px;      
+  padding: 20px;
+  margin: 0;             
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reseñas div img {
+  width: 100%;
+  max-width: 150px;     
+  height: auto;
+  margin: 0 auto 10px auto;
+}
+
+.reseñas div h6 {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 10px 0;
 }
 .reservar {
   width: 100%;
@@ -87,4 +131,12 @@ header nav ul li a{
 main{
     margin-top: 7%;
     clear: both;
+}
+footer{   
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: black;
+  color: orange;
+  text-align: center;
 }
