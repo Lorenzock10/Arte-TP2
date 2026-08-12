@@ -1,48 +1,3 @@
-
-header{
-  position: fixed;    
-  top: 0;
-  width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: black;
-
-}
-
-header div img{
-    width: 6%;
-    margin-top: 1%;
-    float: left;
-}
-
-header div h1{
-    font-family: "Times New Roman";
-    color: goldenrod;
-    text-transform: uppercase;
-    margin-right: 30%;
-    margin-top: 3%;
-    float: left;
-}
-header nav ul li{
-    list-style: none;
-    text-align: center;
-    width: 5%;
-    padding: 0.5%;
-    margin: 1%;
-    margin-top: 3%;
-    float: left;
-}
-header nav ul li a{
-    text-decoration: none;
-    color: goldenrod;
-    font-size: 20px;
-}
-
-main{
-    margin-top: 7%;
-    clear: both;
-}
-
 .descripcion {
   width: 100%;
 
@@ -83,6 +38,7 @@ main{
   grid-template-columns: repeat(3, 33%);
   gap: 1%;
 }
+<<<<<<< HEAD
 
 
 
@@ -103,3 +59,11 @@ main{
 
 
 
+=======
+.canchas div{
+  margin-bottom: 5%;
+}
+.canchas div img{
+  width: 100%;
+}
+>>>>>>> de7a9ce762506c0090401e7951372da7db2ed5ed
