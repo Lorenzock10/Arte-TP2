@@ -16,6 +16,7 @@
 }
 .canchasDestacadas div{
   text-align: center;
+  margin-left: 1%;
 }
 .canchasDestacadas div p{
   font-weight: bold;
@@ -24,6 +25,19 @@
 .canchasDestacadas div img{
   width: 100%;
 }
+.botonCanchas{
+  background-color: green;
+  text-align: center;
+  padding: 2%;
+}
+.botonCanchas a{
+  text-decoration: none;
+  color: green;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  padding: 1%;
+}
+
 .reseñas {
   width: 100%;
 
@@ -66,14 +80,29 @@
   font-size: 22px;
   margin: 10px 0;
 }
-.reservar {
-  width: 100%;
 
-  display: grid;
-  grid-template-rows: repeat(2, 50%);
-  grid-template-columns: 100%;
-  gap: 1%;
+
+.reservar {
+  background-color: green;
+  color: whitesmoke;
+  font-size: 22px;
+  padding: 2%;
 }
+.reservar div h4{
+  display: flex;
+  justify-content: center;
+}
+.reservar a{
+  text-decoration: none;
+  color: green;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+
+}
+
 .canchas {
   width: 100%;
 
@@ -93,9 +122,7 @@ header{
   position: fixed;    
   top: 0;
   width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: black;
+  background-color: green;
 
 }
 
@@ -107,24 +134,24 @@ header div img{
 
 header div h1{
     font-family: "Times New Roman";
-    color: goldenrod;
+    color: whitesmoke;
     text-transform: uppercase;
-    margin-right: 30%;
+    margin-right: 45%;
     margin-top: 3%;
     float: left;
 }
 header nav ul li{
     list-style: none;
-    text-align: center;
     width: 5%;
     padding: 0.5%;
     margin: 1%;
-    margin-top: 3%;
+    margin-top: 2%;
     float: left;
+    display: flex;
 }
 header nav ul li a{
     text-decoration: none;
-    color: goldenrod;
+    color: white;
     font-size: 20px;
 }
 
@@ -132,11 +159,67 @@ main{
     margin-top: 7%;
     clear: both;
 }
+.descripcion{
+  color: black;
+  background-color: whitesmoke;
+}
+.descripcion div{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.descripcion div h4{
+  margin-right: 4%;
+}
+
+.tituloCanchas{
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+}
+.canchasDestacadas{
+  background-color: green;
+  color: whitesmoke;
+}
+.canchasDestacadas div{
+  width: 95%;
+}
+.canchasDestacadas div img{
+  width: 100%;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.reseñas{
+    text-align: center;
+    clear: both;
+}
+.reseñas h2{
+    margin-bottom: 2%;
+}
+.reseñas div{
+    background-color: green;
+    border-radius: 15px;
+    float: left;
+    width: 33%;
+    padding: 3%;
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    color: whitesmoke;
+}
+.reseñas img{
+    width: 50%;
+    margin-bottom: 1%;
+}
+
 footer{   
   width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: black;
+  background-color: rgb(0, 104, 0);
   color: orange;
   text-align: center;
 }
