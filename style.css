@@ -121,11 +121,14 @@
 .canchas div img{
   width: 100%;
 }
+.canchas div p{
+  color: whitesmoke;
+}
 .canchas div a{
   text-decoration: none;
   color: green;
   background-color: whitesmoke;
-  border-radius: 5%;
+  border-radius: 15px;
   padding: 1%;
 }
 header{
@@ -229,8 +232,11 @@ main{
 footer{   
   width: 100%;
   background-color: rgb(0, 104, 0);
-  color: orange;
+  color: whitesmoke;
   text-align: center;
+}
+footer div a{
+  color: whitesmoke;
 }
 
 .ContactosContenido{
@@ -244,4 +250,33 @@ footer{
 
 .Contactos{
   text-align: center;
+}
+
+.Reservas {
+  text-align: center;
+}
+
+.Formulario-reservas form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.Formulario-reservas div {
+    color: white;
+    background-color: green;
+    border-radius: 15px;
+    width: 44%;
+    padding: 1%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.Boton {
+    width: 200px;
+    padding: 10px;
+    margin-top: 8%;
+    margin-bottom: 1%;
 }
